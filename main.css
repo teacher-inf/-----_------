@@ -1,3 +1,5 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"');
+@import url('link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"');
 @import url('link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet"');
 * {
     margin: 0;
@@ -82,4 +84,81 @@ button {
     background-repeat: no-repeat;
     background-position: left bottom;
     height: 800px;
+    gap: 24px;
+}
+.organic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'rosario';
+    font-size: 70px;
+    margin-top: 90px;
+}
+.discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM sans';
+    font-size: 18px;
+}
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.user1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 412px;
+    gap: 26px;
+}
+.section2 {
+    /* background-color: blue; */
+}
+.section2 .container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/pic12.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 800px;
+    gap: 24px;
+}
+.organic1 {
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    font-family: 'rosario';
+    font-size: 70px;
+    margin-top: 90px;
+}
+.dedic {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'DM sans';
+    font-size: 18px;
+}
+.fast {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.fast1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: blue; */
 }
